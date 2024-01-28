@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/big_event
+    url: jdbc:mysql://mydb:3306/big_event
     username: root
     password: root
   data:
@@ -15,4 +15,3 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 server:
   port: 8080
-
