@@ -17,6 +17,7 @@ services:
   mysqldb:
     image: mysql
     restart: always
+    container_name: mysqldb
     ports:
       - "3306:3306"
     volumes:
@@ -31,6 +32,7 @@ services:
   #  add redis container to same network
   redis:
     image: redis
+    container_name: redisdb
     restart: always
     ports:
       - "6379:6379"

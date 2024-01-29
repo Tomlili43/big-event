@@ -2,11 +2,12 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://mysqldb:3306/big_event?allowPublicKeyRetrieval=true
+    # url: jdbc:mysql://localhost:3306/big_event?allowPublicKeyRetrieval=true
     username: root
     password: root
   data:
     redis:
-      host: redis
+      host: redisdb
       port: 6379
 
 mybatis:
