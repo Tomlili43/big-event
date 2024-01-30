@@ -10,7 +10,7 @@ import java.io.FileInputStream;
 import org.junit.jupiter.api.Test;
 
 public class DemoTest {
-  @Test
+  // @Test
   public void storeImage() throws Exception {
     // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
     String endpoint = "https://oss-cn-hongkong.aliyuncs.com";

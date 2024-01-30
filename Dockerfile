@@ -6,8 +6,9 @@ FROM openjdk:17
 WORKDIR /app
 
 COPY ./target/big-event-1.0-SNAPSHOT.jar app.jar
+
 # Expose the port that the Spring Boot app will run on
-EXPOSE 8080
+EXPOSE 8082
 
 
 ENTRYPOINT ["java","-jar","app.jar"]
